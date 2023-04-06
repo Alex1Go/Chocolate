@@ -1,0 +1,39 @@
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
+
+    }
+
+    .mob-menu-open,
+    .head-logo {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    .mob-mehu-open-svg {
+        width: 32px;
+        height: 32px;
+    }
+
+    .hero-fon {
+        padding-top: 671px;
+        padding-bottom: 40px;
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .hero-title {
+        max-width: 484px;
+    }
+
+    .hero-btn-how {
+        margin-right: auto;
+    }
+
+    .hero-btn-buy,
+    .hero-btn-how {
+        margin-bottom: 0;
+    }
+}
