@@ -19,8 +19,8 @@
 
 <body>
     <header class="head">
-        <div class="container">
-            <nav class="head-nav">
+        <div class="container asd">
+            <nav class="head-nav" id="home">
                 <a class="head-logo link" href="./index.html">SIMPLY&nbsp;<span
                         class="head-second-logo">CHOCOLATE</span>
                     <svg class="head-logo-svg" width="21" height="21">
@@ -60,13 +60,56 @@
                         </a>
                     </li>
                 </ul>
-                <button class="mob-menu-open" type="button">
+                <button class="mob-menu-open js-open-menu" type="button">
                     <svg class="mob-menu-open-svg" width="28" height="28">
                         <use href="./images/sprite.svg#mob-menu-open"></use>
                     </svg>
                 </button>
             </nav>
+        </div>
 
+        <div class="head-mob-menu js-menu-container">
+            <div class="head-mob-conteiner">
+                <button class="head-menu-close js-close-menu" type="button">
+                    <svg class="head-close-svg" width="28" height="28">
+                        <use href="./images/sprite.svg#mob-menu-close"></use>
+                    </svg>
+                </button>
+                <ul class="head-mob-list list">
+                    <li class="head-mob-item">
+                        <a class="head-mob-link link current" href="#home">Home</a>
+                    </li>
+                    <li class="head-mob-item">
+                        <a class="head-mob-link link " href="#how it’s made">How it’s made?</a>
+                    </li>
+                    <li class="head-mob-item">
+                        <a class="head-mob-link link" href="#our products">Our products</a>
+                    </li>
+                    <li class="head-mob-item">
+                        <a class="head-mob-link link" href="#top sellers">Top sellers</a>
+                    </li>
+                    <li class="head-mob-item">
+                        <a class="head-mob-link link" href="#chocolate is loved">Chocolate is loved</a>
+                    </li>
+                </ul>
+
+                <ul class="head-mob-soc list">
+                    <li class="head-mob-soc-item">
+                        <a class="head-mob-soc-link link" href="">
+                            <svg class="head-mob-soc-svg" width="22" height="22">
+                                <use href="./images/sprite.svg#mob-insta"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="head-mob-soc-item">
+                        <a class="head-mob-soc-link link" href="">
+                            <svg class="head-mob-soc-svg" width="20" height="20">
+                                <use href="./images/sprite.svg#mob-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </header>
     <main>
@@ -74,20 +117,22 @@
         <section class="hero">
             <div class="container">
                 <div class="hero-fon">
-                    <h1 hidden></h1>
+                    <h1 hidden>bhg</h1>
                     <p class="hero-title">Treat yourself or a loved one
                         to our finest ingredients for a moment of pure delight!</p>
-                    <button class="hero-btn-buy" type="button">Buy now</button>
-                    <button class="hero-btn-how" type="button">
-                        <a class="hero-btn-link link" href="#how it’s made">How it’s made</a>
-                    </button>
-                    <button class="hero-btn-scroll" type="button">
-                        <a class="hero-scroll-link link" href="#footer">scroll down
-                            <svg class="hero-scroll-svg" width="28" height="28">
-                                <use href="./images/sprite.svg#mob-scroll"></use>
-                            </svg>
-                        </a>
-                    </button>
+                    <div class="hero-btn-box">
+                        <button class="hero-btn-buy" type="button">Buy now</button>
+                        <button class="hero-btn-how" type="button">
+                            <a class="hero-btn-link link" href="#how it’s made">How it’s made</a>
+                        </button>
+                        <button class="hero-btn-scroll" type="button">
+                            <a class="hero-scroll-link link" href="#footer">scroll down
+                                <svg class="hero-scroll-svg" width="28" height="28">
+                                    <use href="./images/sprite.svg#mob-scroll"></use>
+                                </svg>
+                            </a>
+                        </button>
+                    </div>
                 </div>
             </div>
         </section>
@@ -172,6 +217,7 @@
             assumenda.
         </p>
     </footer>
+    <script src="./js/mobile-menu.js"></script>
 </body>
 
 </html>

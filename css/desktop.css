@@ -6,9 +6,28 @@
     }
 }
 
+@media screen and (min-width: 769px) {
+    .hero-fon {
+        background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(../images/tab-fon.jpg);
+
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 769px),
+screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 769px),
+screen and (min-resolution: 192dpi) and (min-width: 769px),
+screen and (min-resolution: 2dppx) and (min-width: 769px) {
+    .hero-fon {
+        background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(../images/tab-fon@2x.jpg);
+    }
+}
 
 @media screen and (min-width: 1200px) {
     .mob-menu-open {
+        display: none;
+    }
+
+    .head-mob-menu {
         display: none;
     }
 
@@ -50,6 +69,12 @@
         padding-top: 28px;
         padding-bottom: 36px;
         display: block;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .head-menu-link:hover,
+    .head-menu-link:focus {
+        color: #FD9222;
     }
 
     .head-soc {
@@ -65,5 +90,19 @@
     .head-soc-link {
         padding-top: 24px;
         padding-bottom: 32px;
+
+    }
+
+    .head-soc-svg {
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .head-soc-link:hover .head-soc-svg,
+    .head-soc-link:focus .head-soc-svg {
+        fill: #FD9222;
+    }
+
+    .hero-fon {
+        padding-top: 381px;
     }
 }
