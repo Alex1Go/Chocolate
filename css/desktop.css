@@ -6,21 +6,7 @@
     }
 }
 
-@media screen and (min-width: 769px) {
-    .hero-fon {
-        background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(../images/tab-fon.jpg);
 
-    }
-}
-
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 769px),
-screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 769px),
-screen and (min-resolution: 192dpi) and (min-width: 769px),
-screen and (min-resolution: 2dppx) and (min-width: 769px) {
-    .hero-fon {
-        background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(../images/tab-fon@2x.jpg);
-    }
-}
 
 @media screen and (min-width: 1200px) {
     .mob-menu-open {
@@ -101,8 +87,63 @@ screen and (min-resolution: 2dppx) and (min-width: 769px) {
     .head-soc-link:focus .head-soc-svg {
         fill: #FD9222;
     }
+}
+
+@media screen and (min-width: 769px) {
+    .hero-fon {
+        background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(../images/tab-fon.jpg);
+
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 769px),
+screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 769px),
+screen and (min-resolution: 192dpi) and (min-width: 769px),
+screen and (min-resolution: 2dppx) and (min-width: 769px) {
+    .hero-fon {
+        background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(../images/tab-fon@2x.jpg);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .hero {
+        padding-bottom: 72px;
+    }
 
     .hero-fon {
         padding-top: 381px;
     }
+
+    /* ===== Advantages ===== */
+    .adv {
+        padding-bottom: 51px;
+    }
+
+    .adv-list {
+        gap: 70px;
+        justify-content: center;
+    }
+
+    .adv-item:last-child {
+        padding-right: 0;
+        max-width: 308px;
+    }
+
+    .adv-item:not(:last-child) {
+        position: relative;
+        max-width: 326px;
+        padding-right: 18px;
+    }
+
+    .adv-item:not(:last-child):after {
+        content: '';
+        display: block;
+        position: absolute;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        width: 124px;
+        transform: rotate(90deg);
+        right: -60px;
+        top: 120px;
+    }
+
 }

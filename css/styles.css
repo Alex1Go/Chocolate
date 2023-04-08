@@ -52,7 +52,7 @@ body {
     clip: rect(0 0 0 0);
 }
 
-/* ==== header ===== */
+/* ==== Header ===== */
 
 .head-logo {
     font-family: 'Montserrat', sans-serif;
@@ -96,7 +96,7 @@ body {
     fill: rgba(17, 17, 17, 1);
 }
 
-/* ===== mob menu ===== */
+/* ===== Mob menu ===== */
 
 .head-mob-menu {
     position: fixed;
@@ -217,7 +217,10 @@ body {
     fill: #FD9222;
 }
 
-/* ===== hero ===== */
+/* ===== Hero ===== */
+.hero {
+    padding-bottom: 72px;
+}
 
 .hero-fon {
     background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(../images/mob-fon.jpg);
@@ -342,4 +345,84 @@ screen and (min-resolution: 2dppx) and (max-width: 375px) {
     fill: #FFFFFF;
     background-color: #FD9222;
     border: solid 5px #FD9222;
+}
+
+/* ===== Advantages ===== */
+
+.adv {
+    background-color: #1E1823;
+    padding-top: 20px;
+    padding-bottom: 36px;
+}
+
+.adv-item {
+    max-width: 336px;
+    padding-right: 28px;
+}
+
+.adv-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.adv-svg {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 15px;
+    border-radius: 365px;
+    margin-bottom: 22px;
+}
+
+.adv-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-bottom: 18px;
+}
+
+.adv-text {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* ===== Unique components ===== */
+
+.uc {
+    padding-top: 72px;
+}
+
+.uc-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #111111;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    max-width: 283px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.uc-title-span {
+    color: #FD9222;
+}
+
+.uc-title-text {
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #111111;
+}
+
+.zxc {
+    width: 335px;
+    height: 270px;
+    background-color: #FD9222;
 }

@@ -35,6 +35,10 @@ screen and (min-resolution: 2dppx) and (min-width: 376px) {
 }
 
 @media screen and (min-width: 768px) {
+    .hero {
+        padding-bottom: 50px;
+    }
+
     .hero-fon {
         padding-top: 671px;
         padding-bottom: 40px;
@@ -85,5 +89,16 @@ screen and (min-resolution: 2dppx) and (min-width: 376px) {
     .head-mob-soc-svg {
         width: 24px;
         height: 24px;
+    }
+
+    /* ===== Advantages ===== */
+
+    .adv {
+        padding-top: 50px;
+        padding-bottom: 85px;
+    }
+
+    .adv-list {
+        gap: 32px;
     }
 }
