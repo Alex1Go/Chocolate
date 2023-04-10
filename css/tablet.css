@@ -16,6 +16,26 @@
         width: 32px;
         height: 32px;
     }
+
+    .head-mob-menu {
+        width: 290px;
+    }
+
+    .head-mob-conteiner {
+        max-width: 100%;
+        padding: 24px 32px;
+    }
+
+    .head-mob-list {
+        margin-top: 132px;
+        margin-left: 53px;
+    }
+
+    .head-mob-soc-svg {
+        width: 24px;
+        height: 24px;
+    }
+
 }
 
 @media screen and (min-width: 376px) {
@@ -53,17 +73,18 @@ screen and (min-resolution: 2dppx) and (min-width: 376px) {
     }
 
     .hero-btn-buy,
-    .hero-btn-how {
+    .hero-btn-link {
         padding: 14px 40px;
     }
 
-    .hero-btn-scroll {
+    /* .hero-btn-scroll {
         margin-left: auto;
-    }
+    } */
 
     .hero-scroll-link {
         font-size: 14px;
         line-height: 18px;
+        margin-left: auto;
     }
 
     .hero-scroll-svg {
@@ -72,24 +93,6 @@ screen and (min-resolution: 2dppx) and (min-width: 376px) {
         margin-left: 14px;
     }
 
-    .head-mob-menu {
-        width: 290px;
-    }
-
-    .head-mob-conteiner {
-        max-width: 100%;
-        padding: 24px 32px;
-    }
-
-    .head-mob-list {
-        margin-top: 132px;
-        margin-left: 53px;
-    }
-
-    .head-mob-soc-svg {
-        width: 24px;
-        height: 24px;
-    }
 
     /* ===== Advantages ===== */
 

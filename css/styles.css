@@ -254,8 +254,8 @@ screen and (min-resolution: 2dppx) and (max-width: 375px) {
 
 .hero-btn-box {
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
+    align-items: center;
     gap: 32px 14px;
 }
 
@@ -272,7 +272,22 @@ screen and (min-resolution: 2dppx) and (max-width: 375px) {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero-btn-how {
+/* .hero-btn-how {
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+    padding: 11px 28px;
+    cursor: pointer;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} */
+
+.hero-btn-link {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
     background-color: transparent;
     border: 1px solid #FFFFFF;
     border-radius: 100px;
@@ -281,37 +296,29 @@ screen and (min-resolution: 2dppx) and (max-width: 375px) {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero-btn-link {
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 17px;
-    color: #FFFFFF;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .hero-btn-buy:hover,
 .hero-btn-buy:focus {
     color: #FD9222;
     background: #FCF1E0;
 }
 
-.hero-btn-how:hover,
-.hero-btn-how:focus {
+.hero-btn-link:hover,
+.hero-btn-link:focus {
     color: #FD9222;
     border: 1px solid #FD9222;
 }
 
-.hero-btn-how:hover .hero-btn-link,
+/* .hero-btn-how:hover .hero-btn-link,
 .hero-btn-how:focus .hero-btn-link {
     color: #FD9222;
-}
+} */
 
-.hero-btn-scroll {
+/* .hero-btn-scroll {
     border: none;
     background-color: transparent;
     cursor: pointer;
     padding: 0;
-}
+} */
 
 .hero-scroll-link {
     font-weight: 500;
@@ -323,6 +330,11 @@ screen and (min-resolution: 2dppx) and (max-width: 375px) {
     align-items: center;
     text-align: center;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
 }
 
 .hero-scroll-svg {
@@ -335,13 +347,13 @@ screen and (min-resolution: 2dppx) and (max-width: 375px) {
 }
 
 
-.hero-btn-scroll:hover .hero-scroll-link,
-.hero-btn-scroll:focus .hero-scroll-link {
+.hero-scroll-link:hover,
+.hero-scroll-link:focus {
     color: #FD9222;
 }
 
-.hero-btn-scroll:hover .hero-scroll-svg,
-.hero-btn-scroll:focus .hero-scroll-svg {
+.hero-scroll-link:hover .hero-scroll-svg,
+.hero-scroll-link:focus .hero-scroll-svg {
     fill: #FFFFFF;
     background-color: #FD9222;
     border: solid 5px #FD9222;
@@ -367,11 +379,19 @@ screen and (min-resolution: 2dppx) and (max-width: 375px) {
     gap: 20px;
 }
 
-.adv-svg {
+.adv-svg-box {
+    width: 62px;
+    height: 62px;
     border: 1px solid rgba(255, 255, 255, 0.5);
-    padding: 15px;
     border-radius: 365px;
     margin-bottom: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.adv-svg {
+    fill: #FD9222;
 }
 
 .adv-title {
@@ -421,8 +441,27 @@ screen and (min-resolution: 2dppx) and (max-width: 375px) {
     color: #111111;
 }
 
-.zxc {
+.uc-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.uc-item {
     width: 335px;
     height: 270px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.uc-list:first-child {
     background-color: #FD9222;
+}
+
+.uc-list:nth-child(3) {
+    background-color: #1E1823;
+}
+
+.uc-list:nth-child(2n) {
+    background: #FFFFFF;
+    border: 1px solid #FD9222;
 }
