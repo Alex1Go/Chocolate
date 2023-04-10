@@ -439,29 +439,98 @@ screen and (min-resolution: 2dppx) and (max-width: 375px) {
     text-align: center;
     letter-spacing: -0.02em;
     color: #111111;
+    margin-bottom: 32px;
 }
 
 .uc-list {
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
 .uc-item {
     width: 335px;
     height: 270px;
     border-radius: 15px;
-    text-align: center;
+    align-items: end;
+    padding: 28px;
 }
 
-.uc-list:first-child {
+.uc-item img {
+    display: block;
+    margin: auto;
+}
+
+.uc-item:first-child {
     background-color: #FD9222;
 }
 
-.uc-list:nth-child(3) {
+.uc-item:nth-child(3) {
     background-color: #1E1823;
 }
 
-.uc-list:nth-child(2n) {
+.uc-item:nth-child(2n) {
     background: #FFFFFF;
     border: 1px solid #FD9222;
+}
+
+.uc-item-text {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    color: #111111;
+    left: 0;
+    margin-top: 25px;
+}
+
+.item-wt {
+    color: #ffffff;
+}
+
+/* ===== How its made ===== */
+
+.how {
+    padding-top: 72px;
+}
+
+.how-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #111111;
+}
+
+.how-title-second {
+    color: #FD9222;
+}
+
+.how-text-box {
+    max-width: 335px;
+    padding: 20px 14px;
+}
+
+.how-box-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #111111;
+    margin-bottom: 20px;
+}
+
+.how-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    width: 291px;
+    margin-left: auto;
+}
+
+.how-item {
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    color: #111111;
 }
