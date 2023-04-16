@@ -218,7 +218,7 @@
         <!-- How its made -->
         <section class="how">
             <div class="container">
-                <h2 class="how-title">HOW IT’S <span class="how-title-second">MADE?</span></h2>
+                <h2 id="how_it’s_made" class="how-title">HOW IT’S <span class="how-title-second">MADE?</span></h2>
                 <div class="how">
                     <img src="" alt="">
                     <svg class="how-svg" width="35" height="35">
@@ -246,55 +246,60 @@
         <!-- Our products -->
         <section class="our">
             <div class="container">
-                <h2 class="our-title">OUR <span class="our-span">PRODUCTS</span></h2>
+                <h2 id="our_products" class="our-title">OUR <span class="our-span">PRODUCTS</span></h2>
                 <ul class="our-list list">
                     <li class="our-item">
-                        <img srcset="./images/scroll/orange@2x.jpg 2x" src="./images/scroll/orange.jpg" alt="chocolad">
+                        <img class="our-img" srcset="./images/scroll/orange@2x.jpg 2x" src="./images/scroll/orange.jpg"
+                            alt="chocolad">
                         <h3 class="our-item-title">ORANGE</h3>
                         <p class="our-item-subtitle">Dark chocolate</p>
                         <p class="our-item-price">45 UAH</p>
                     </li>
                     <li class="our-item">
-                        <img srcset="./images/scroll/apple@2x.jpg 2x" src="./images/scroll/apple.jpg" alt="chocolad">
+                        <img class="our-img" srcset="./images/scroll/apple@2x.jpg 2x" src="./images/scroll/apple.jpg"
+                            alt="chocolad">
                         <h3 class="our-item-title">APPLE&CRANBERRY</h3>
                         <p class="our-item-subtitle">Milk chocolate</p>
                         <p class="our-item-price">50 UAH</p>
                     </li>
                     <li class="our-item">
-                        <img srcset="./images/scroll/lime@2x.jpg 2x" src="./images/scroll/lime.jpg" alt="chocolad">
+                        <img class="our-img" srcset="./images/scroll/lime@2x.jpg 2x" src="./images/scroll/lime.jpg"
+                            alt="chocolad">
                         <h3 class="our-item-title">LIME&SEA SALT</h3>
                         <p class="our-item-subtitle">Dark chocolate</p>
                         <p class="our-item-price">66 UAH</p>
                     </li>
                     <li class="our-item">
-                        <img srcset="./images/scroll/pine@2x.jpg 2x" src="./images/scroll/pine.jpg" alt="chocolad">
+                        <img class="our-img" srcset="./images/scroll/pine@2x.jpg 2x" src="./images/scroll/pine.jpg"
+                            alt="chocolad">
                         <h3 class="our-item-title">PINEAPPLE</h3>
                         <p class="our-item-subtitle">Dark chocolate</p>
                         <p class="our-item-price">54 UAH</p>
                     </li>
                     <li class="our-item">
-                        <img srcset="./images/scroll/classicm@2x.jpg 2x" src="./images/scroll/classicm.jpg"
-                            alt="chocolad">
+                        <img class="our-img" srcset="./images/scroll/classicm@2x.jpg 2x"
+                            src="./images/scroll/classicm.jpg" alt="chocolad">
                         <h3 class="our-item-title">CLASSIC</h3>
                         <p class="our-item-subtitle">Mlk chocolate</p>
                         <p class="our-item-price">45 UAH</p>
                     </li>
                     <li class="our-item">
-                        <img srcset="./images/scroll/honey@2x.jpg 2x" src="./images/scroll/honey.jpg" alt="chocolad">
+                        <img class="our-img" srcset="./images/scroll/honey@2x.jpg 2x" src="./images/scroll/honey.jpg"
+                            alt="chocolad">
                         <h3 class="our-item-title">HONEY</h3>
                         <p class="our-item-subtitle">Mlk chocolate</p>
                         <p class="our-item-price">50 UAH</p>
                     </li>
                     <li class="our-item">
-                        <img srcset="./images/scroll/roasted@2x.jpg 2x" src="./images/scroll/roasted.jpg"
-                            alt="chocolad">
+                        <img class="our-img" srcset="./images/scroll/roasted@2x.jpg 2x"
+                            src="./images/scroll/roasted.jpg" alt="chocolad">
                         <h3 class="our-item-title">ROASTED FRUITS Roasted</h3>
                         <p class="our-item-subtitle">Dark chocolate</p>
                         <p class="our-item-price">66 UAH</p>
                     </li>
                     <li class="our-item">
-                        <img srcset="./images/scroll/classicw@2x.jpg 2x" src="./images/scroll/classicw.jpg"
-                            alt="chocolad">
+                        <img class="our-img" srcset="./images/scroll/classicw@2x.jpg 2x"
+                            src="./images/scroll/classicw.jpg" alt="chocolad">
                         <h3 class="our-item-title">CLASSIC</h3>
                         <p class="our-item-subtitle">White chocolate</p>
                         <p class="our-item-price">54 UAH</p>
@@ -302,15 +307,17 @@
                 </ul>
             </div>
         </section>
-
         <!-- Top Sellers -->
         <section class="top">
             <div class="container">
-                <h2 class="top-title"><span class="top-span">TOP</span> SELLERS</h2>
+                <h2 id="top_sellers" class="top-title"><span class="top-span">TOP</span> SELLERS</h2>
                 <ul class="top-list list">
                     <li class="top-item">
                         <picture>
-                            <img class="top-img" srcset="./images/top1m@2x.jpg 2x" src="./images/top1m.jpg" alt="foto">
+                            <source srcset="" media="(min-width: 1200px)">
+                            <source srcset="" media="(min-width: 768px)">
+                            <source srcset="./images/top1m.jpg 1x, ./images/top1m@2x.jpg 2x" media="(min-width: 320px)">
+                            <img class="top-img" src="./images/top1m.jpg" alt="foto">
                         </picture>
                         <p class="top-subtitle">Crazy enough chocolate originates from a bean just like the coffee bean
                             called Cacao. Cacao has been around for
@@ -319,20 +326,28 @@
                     </li>
                     <li class="top-item">
                         <picture>
-                            <img class="top-img" srcset="./images/top2m@2x.jpg 2x" src="./images/top2m.jpg" alt="foto">
+                            <source srcset="" media="(min-width: 1200px)">
+                            <source srcset="" media="(min-width: 768px)">
+                            <source srcset="./images/top2m.jpg 1x, ./images/top2m@2x.jpg 2x" media="(min-width: 320px)">
+                            <img class="top-img" src="./images/top2m.jpg" alt="foto">
                         </picture>
                     </li>
                     <li class="top-item">
-                        <img class="top-img" src="" alt="">
+                        <picture>
+                            <source srcset="" media="(min-width: 1200px)">
+                            <source srcset="" media="(min-width: 768px)">
+                            <source srcset="" media="(min-width: 320px)">
+                            <img class="top-img" src="" alt="">
+                        </picture>
                         <button class="top-btn" type="button">Buy now</button>
                     </li>
                 </ul>
             </div>
         </section>
-        <!-- CHOCOLATE IS LOVED -->
+        <!-- Chocolate is loved -->
         <section class="choco">
             <div class="container">
-                <h2 class="choco-title"><span class="choco-span">CHOCOLATE</span> IS LOVED</h2>
+                <h2 id="chocolate_is_loved" class="choco-title"><span class="choco-span">CHOCOLATE</span> IS LOVED</h2>
                 <ul class="choco-list list">
                     <li class="choco-item">
                         <img class="choco-img" srcset="./images/rev/rev1@2x.jpg 2x" src="./images/rev/rev1.jpg"
@@ -360,7 +375,7 @@
                             but crunchy.</p>
                     </li>
                 </ul>
-                <button class="choco-btn" type="button">Leave a review</button>
+                <button class="choco-btn" data-modal-open type="button">Leave a review</button>
             </div>
         </section>
         <!-- Subscribe -->
@@ -377,34 +392,44 @@
             </div>
         </section>
     </main>
+    <!-- Footer -->
     <footer class="foot">
         <div class="container">
-            <h2 class="foot-title">
-                <spsn class="foot-span">Chocolate</spsn> a delicious cure for a bad day
-            </h2>
-            <address class="foot-nav">
-                <p class="foot-subtitle">Contact us</p>
-                <ul class="foot-nav-list list">
-                    <li class="foot-"></li>
-                    <li class="foot-"></li>
-                </ul>
-            </address>
-            <ul class="foot-soc list">
-                <li class="foot-soc-item">
-                    <a class="foot-soc-link link" href="https://www.instagram.com/">
-                        <svg class="foot-soc-svg" width="24" height="24">
-                            <use href="./images/sprite.svg#mob-insta"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="foot-soc-item">
-                    <a class="foot-soc-link link" href="https://twitter.com/">
-                        <svg class="foot-soc-svg" width="24" height="24">
-                            <use href="./images/sprite.svg#mob-twitter"></use>
-                        </svg>
-                    </a>
-                </li>
-            </ul>
+            <div claas="foot-nav-box">
+                <h2 id="footer" class="foot-title">
+                    <span class="foot-span">Chocolate</span> a delicious cure for a bad day
+                </h2>
+                <address class="foot-nav">
+                    <div class="foot-nav-box">
+                        <p class="foot-subtitle">Contact us</p>
+                        <ul class="foot-nav-list list">
+                            <li class="foot-nav-item">
+                                <a class="foot-nav-link link" href="tel:+380684439426">+380 (68) 443-94-26</a>
+                            </li>
+                            <li class="foot-nav-item">
+                                <a class="foot-nav-link link"
+                                    href="mailto:simplychoc@gmail.com">simplychoc@gmail.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="foot-soc list">
+                        <li class="foot-soc-item">
+                            <a class="foot-soc-link link" href="https://www.instagram.com/">
+                                <svg class="foot-soc-svg" width="22" height="22">
+                                    <use href="./images/sprite.svg#mob-insta"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="foot-soc-item">
+                            <a class="foot-soc-link link" href="https://twitter.com/">
+                                <svg class="foot-soc-svg" width="22" height="22">
+                                    <use href="./images/sprite.svg#mob-twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </address>
+            </div>
             <ul class="foot-menu-list list">
                 <li class="foot-menu-item">
                     <a class="foot-menu-link link" href="#home">Home</a>
@@ -425,13 +450,10 @@
         </div>
     </footer>
 
-
-
-
     <!-- Modal -->
-    <div class="backdrop is-hidden" data-modal-rev>
+    <div class="backdrop is-hidden" data-modal>
         <div class="modal-container">
-            <button type="button" data-modal-close-rev class="modal-close">
+            <button type="button" data-modal-close class="modal-close">
                 <svg class="close-modal-icon" width="24" height="24">
                     <use href="./images/sprite.svg#mob-menu-close"></use>
                 </svg>
