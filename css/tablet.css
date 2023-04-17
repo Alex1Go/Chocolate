@@ -105,7 +105,97 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
     .adv-list {
         gap: 32px;
     }
+
+    /* ===== Unique components ===== */
+    .uc {
+        padding-top: 100px;
+    }
+
+    .uc-title {
+        max-width: 411px;
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 28px;
+    }
+
+    .uc-title-text {
+        max-width: 411px;
+        margin-bottom: 50px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .uc-list {
+        gap: 32px;
+    }
+
+    .uc-item {
+        max-width: 336px;
+    }
+
+    /* ===== How its made ===== */
+    .how {
+        padding-top: 100px;
+    }
+
+    .how-title {
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 50px;
+    }
+
+    .how-text-box {
+        max-width: 614px;
+        padding: 32px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .how-box-title {
+        max-width: 350px;
+        margin-bottom: 28px;
+    }
+
+    .how-list {
+        margin-left: 16px;
+        margin-right: auto;
+        max-width: 464px;
+    }
+
+    /* ===== Our products ===== */
+    .our {
+        padding-top: 100px;
+    }
+
+    .our-title {
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 50px;
+    }
+
+    .our-item {
+        padding: 32px 0;
+        width: 100%;
+        max-width: 270px;
+    }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
