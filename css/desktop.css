@@ -1,5 +1,6 @@
 @media screen and (max-width: 1199px) {
 
+    .top-img-three,
     .head-menu-list,
     .head-soc {
         display: none;
@@ -145,4 +146,73 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
         top: 120px;
     }
 
+    /* ===== Unique components ===== */
+    .uc {
+        padding-top: 128px;
+    }
+
+    .uc-list {
+        flex-wrap: nowrap;
+        gap: 19px;
+    }
+
+    .uc-item {
+        width: 270px;
+        height: 270px;
+        border-radius: 15px;
+        align-items: end;
+        padding: 28px;
+    }
+
+    .uc-item-text {
+        margin-top: 36px;
+    }
+
+    /* ===== How its made ===== */
+    .how {
+        padding-top: 128px;
+    }
+
+    .how-vandt-box {
+        display: flex;
+        gap: 20px;
+    }
+
+    .how-text-box {
+        margin-top: 0;
+    }
+
+    .how-video {
+        width: 600px;
+        height: 400px;
+    }
+
+    .how-list {
+        gap: 24px;
+    }
+
+    /* ===== Our products ===== */
+    .our {
+        padding-top: 128px;
+    }
+
+    /* ===== Top Sellers ===== */
+    .top {
+        padding-top: 128px;
+    }
+
+    .top-img {
+        width: 100%;
+        max-width: 368px;
+    }
+
+    .top-sub-two {
+        max-width: 407px;
+    }
+
+    /* ===== CHOCOLATE IS LOVED ===== */
+    .choco {
+        padding-top: 128px;
+        padding-bottom: 128px;
+    }
 }

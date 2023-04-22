@@ -1,3 +1,9 @@
+@media screen and (max-width: 767px) {
+    .top-sub-two {
+        display: none;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .container {
         max-width: 768px;
@@ -119,7 +125,7 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
     }
 
     .uc-title-text {
-        max-width: 411px;
+        max-width: 486px;
         margin-bottom: 50px;
         text-align: center;
         margin-left: auto;
@@ -143,6 +149,12 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
         font-size: 24px;
         line-height: 28px;
         margin-bottom: 50px;
+    }
+
+    .how-video {
+        max-width: 614px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .how-text-box {
@@ -180,6 +192,66 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
         max-width: 270px;
     }
 
+    /* ===== Top Sellers ===== */
+    .top {
+        padding-top: 100px;
+    }
+
+    .top-title {
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 50px;
+    }
+
+    .top-list {
+        display: flex;
+        gap: 16px;
+    }
+
+    /* .top-item {
+        width: 344px;
+    } */
+
+    .top-subtitle {
+        display: none;
+    }
+
+    .top-sub-two {
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        max-width: 306px;
+    }
+
+    .top-btn-box {
+        margin-top: 32px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .top-img {
+        margin: 0;
+        width: 100%;
+        max-width: 344px;
+    }
+
+    .top-btn {
+        padding: 14px 40px;
+        margin-right: 0;
+    }
+
+    /* ===== CHOCOLATE IS LOVED ===== */
+    .choco {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .choco-title {
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 90px;
+    }
 }
 
 
