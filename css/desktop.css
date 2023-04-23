@@ -1,5 +1,6 @@
 @media screen and (max-width: 1199px) {
 
+    .choco-list .third,
     .top-img-three,
     .head-menu-list,
     .head-soc {
@@ -101,11 +102,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
     .head-soc-link:focus .head-soc-svg {
         fill: #FD9222;
     }
-}
 
-
-
-@media screen and (min-width: 1200px) {
     .hero {
         padding-bottom: 72px;
     }
@@ -215,4 +212,32 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
         padding-top: 128px;
         padding-bottom: 128px;
     }
+
+    .choco-item {
+        width: 360px;
+    }
+
+    .choco-list {
+        gap: 28px;
+    }
+
+    /* ===== Subscribe ===== */
+    .subs-box {
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+            url(../images/subsd.jpg);
+    }
 }
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
+screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px),
+screen and (min-resolution: 192dpi) and (min-width: 1200px),
+screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+    .subs-box {
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+            url(../images/subsd@2x.jpg);
+    }
+}
+
+/* ===== Footer ===== */
+
+@media screen and (min-width: 1200px) {}
